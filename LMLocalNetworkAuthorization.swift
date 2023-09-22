@@ -23,7 +23,7 @@ import Network
         parameters.includePeerToPeer = true
         
       if(nil == self.browser){
-        let browser = NWBrowser(for: .bonjour(type: "_aqara._tcp", domain: nil), using: parameters)
+        let browser = NWBrowser(for: .bonjour(type: "_what._tcp", domain: nil), using: parameters)
         self.browser = browser
       }
         // Browse for a custom service type.
